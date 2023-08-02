@@ -9,7 +9,7 @@ class T
     }
     T(int a, String b)//parameterized
     {
-        System.out.print(a+" "+b);
+        System.out.println(a+" "+b);
     }
     void show()
     {
@@ -22,6 +22,5 @@ class R
         T r=new T(100,200);
         T ref=new T(10,"abhi");
         r.show();
-        ref.show();
     }
 }
